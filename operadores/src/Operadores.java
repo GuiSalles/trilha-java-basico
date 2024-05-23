@@ -15,5 +15,15 @@ public class Operadores {
         concatenacao = 1 + "1" + 1 + 1; //1111 --> Não faz mais operação depois da primeira ocorrência de concatenação
         concatenacao = "1" + "1" + 1; //111
         concatenacao = "1" + (1+1+1); //13 --> Fez soma por causa dos parenteses
+
+        int numero = 5;
+        System.out.println(-numero); //Imprime -5
+        System.out.println(numero); //Imprime 5
+
+        numero++;
+        System.out.println(numero); //imprime 6
+        System.out.println(numero++); //Continua imprimindo 6
+        System.out.println(numero); //Imprime 7
+        System.out.println(++numero); //Imprime 8
     }
 }
